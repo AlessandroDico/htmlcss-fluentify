@@ -41,11 +41,28 @@ li {
 
 /* _________inizio header__________ */
 
+header {
+    background-color: darkblue;
+    background-image: url('https://www.fluentify.com/home/wp-content/uploads/2020/01/fluentify-cover-privati-scaled.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
 
+/* ___prova con before per cover del backgroung blu__ */
+
+header::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(270deg, transparent 0%, #001A4F 100%);
+    position: absolute;
+}
 /* _______inizio navbar con logo menu e bottoni____ */
 nav {
+    position: relative;
+    z-index: 1;
     height: 100px;
-    background-color: lightblue;
 }
 
 .logo {
@@ -106,19 +123,9 @@ a.a-menu {
     color: #fff;
 }
 
-
-
-
-
-
-
-
-
-
 /* ___________inizio sezione jumbotron______ */
 .jumbotron {
-    height: 400px;
-    background-color: orange;
+    height: 500px;
 }
 
 
