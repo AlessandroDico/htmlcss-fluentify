@@ -163,6 +163,37 @@ p.paragraph-jumbo {
     padding-bottom: 15px;
 }
 
+.left-image {
+    float: left;
+    width: 50%;
+}
+
+.program-description {
+    float: left;
+    width: 50%;
+}
+
+h2.description-title {
+    font-size: 40px;
+    letter-spacing: 1.3px;
+    line-height: 1.4;
+    color: rgb(114, 114, 114);
+    margin-bottom: 40px;
+}
+
+h3.description-subtitle {
+    color: #00004d;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
 
 
 
