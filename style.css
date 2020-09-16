@@ -254,10 +254,6 @@ span.span-row-icon {
     background-color: #011a4f;
 }
 
-/* .row-mobile-container {
-    position: relative;
-} */
-
 .row-mobile-left, .row-mobile-right {
     float: left;
     width: 50%;
@@ -295,6 +291,34 @@ a#a-link-ios:hover {
     padding-left: 70px;
     vertical-align: bottom;
 }
+
+/* ____inizio sezione safety row___ */
+
+.safety-row {
+    padding: 50px 0;
+}
+
+.safety-left-side, .safety-right-side {
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+}
+
+.safety-left-side {
+    padding-left: 50px;
+}
+
+h3.safety-row-title {
+    color: #00004d;
+    font-size: 27px;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+p.safety-row-paragraph {
+    line-height: 1.4;
+}
+
 
 
 
