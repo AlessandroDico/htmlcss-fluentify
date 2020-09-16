@@ -165,13 +165,19 @@ p.paragraph-jumbo {
 
 /* __inizio main e descrizione del prodotto */
 
+main p {
+    color: rgb(114, 114, 114);
+    font-weight: 100;
+}
+
 .image-e-program-description {
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
 .left-image {
     float: left;
     width: 54%;
+    padding: 40px 0;
 }
 
 .program-description {
@@ -197,12 +203,9 @@ h3.description-subtitle {
     font-weight: 100;
 }
 
-
 p.description-paragraph {
-    color: rgb(114, 114, 114);
-    font-weight: 100;
-    border-bottom: 1px solid rgb(114, 114, 114);
     padding-bottom: 30px;
+    border-bottom: 1px solid rgb(114, 114, 114);
 }
 
 #description-paragraph-no-border {
@@ -213,13 +216,37 @@ p.description-paragraph {
     color: rgb(100, 222, 130);
 }
 
+/* inizio sezione big icon row del marn */
 
+.big-icon-row-title {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(114, 114, 114);
+    font-weight: 100;
+    margin-bottom: 40px;
+}
 
+.big-icon-row {
+    padding: 50px;
+}
 
+.big-icon-box {
+    float: left;
+    width: calc(33.3% - 20px);
+    text-align: center;
+    padding: 0 20px;
+}
 
-
-
-
+span.span-row-icon {
+    display: inline-block;
+    color: #00004d;
+    font-size: 27px;
+    margin: 20px 0;
+    letter-spacing: 1.3px;
+    line-height: 1.4;
+    font-weight: 100;
+    margin: 20px 0;
+}
 
 
 
