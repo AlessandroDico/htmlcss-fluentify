@@ -54,7 +54,7 @@ header {
     position: relative;
 }
 
-/* ___prova con before per cover del backgroung blu__ */
+/* ___prova con before per overlay del backgroung blu__ */
 
 header::before {
     content: '';
@@ -163,14 +163,20 @@ p.paragraph-jumbo {
     padding-bottom: 15px;
 }
 
+/* __inizio main e descrizione del prodotto */
+
+.image-e-program-description {
+    padding: 50px 0;
+}
+
 .left-image {
     float: left;
-    width: 50%;
+    width: 54%;
 }
 
 .program-description {
     float: left;
-    width: 50%;
+    width: 46%;
 }
 
 h2.description-title {
@@ -179,15 +185,33 @@ h2.description-title {
     line-height: 1.4;
     color: rgb(114, 114, 114);
     margin-bottom: 40px;
+    font-weight: 100;
 }
 
 h3.description-subtitle {
     color: #00004d;
     font-size: 27px;
-    margin-bottom: 20px;
+    margin: 20px 0;
+    letter-spacing: 1.3px;
+    line-height: 1.4;
+    font-weight: 100;
 }
 
 
+p.description-paragraph {
+    color: rgb(114, 114, 114);
+    font-weight: 100;
+    border-bottom: 1px solid rgb(114, 114, 114);
+    padding-bottom: 30px;
+}
+
+#description-paragraph-no-border {
+    border: none;
+}
+
+#green-words {
+    color: rgb(100, 222, 130);
+}
 
 
 
