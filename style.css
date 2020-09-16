@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* _______inizio navbar con logo menu e bottoni____ */
+nav {
+    height: 100px;
+    background-color: lightblue;
+}
+
+.logo {
+    padding: 25px;
+    float: left;
+}
+
+.logo img {
+    height: 50px;
+    float: left;
+}
+
+.menu-bar {
+    padding: 29px 0;
+    float: left;
+}
+
+.menu-bar ul li {
+    float: left;
+}
+
+a.a-menu {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.nav-buttons {
+    float: left;
+    padding-left: 30px;
+}
+
+a.buttons {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: green; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ___________inizio sezione jumbotron______ */
+.jumbotron {
+    height: 400px;
+    background-color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* togliere questa scritta */
