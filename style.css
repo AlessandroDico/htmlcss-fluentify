@@ -201,14 +201,25 @@ main p {
     padding: 100px 0;
 }
 
+.program-description-container {
+    position: relative;
+}
+
 .left-image {
     float: left;
     width: 54%;
-    padding: 40px 0;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.left-image img {
+    width: 100%;
 }
 
 .program-description {
-    float: left;
+    float: right;
     width: 46%;
 }
 
