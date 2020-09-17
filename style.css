@@ -111,6 +111,10 @@ a.a-menu {
     position: relative;
 }
 
+a.a-menu:hover {
+    color: #bbb;
+}
+
 .nav-buttons {
     float: left;
     padding: 30.5px 20px;
