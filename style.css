@@ -87,7 +87,7 @@ nav {
     float: left;
 }
 
-.logo img {
+.logo a img {
     height: 50px;
     float: left;
 }
@@ -236,7 +236,7 @@ h2.big-icon-row-title {
 
 .big-icon-box {
     float: left;
-    width: calc(33.3% - 20px);
+    width: calc(100% / 3);
     text-align: center;
     padding: 0 20px;
 }
@@ -290,7 +290,8 @@ a#a-link-ios:hover {
 
 .row-mobile-right img {
     padding-left: 70px;
-    vertical-align: bottom;
+    /* vertical-align: bottom; */
+    display: block;
 }
 
 /* ____inizio sezione safety row___ */
@@ -322,21 +323,96 @@ p.safety-row-paragraph {
 
 .prefooter-row {
     background-color: #294681;
-    padding: 80px 0;
+    padding: 55px 0;
 }
 
 .prefooter-left, .prefooter-right {
-    display: inline-block;
-    width: 40%;
+    float: left;
+    width: 50%;
+    padding: 0 50px;
 }
 
 p.prefooter-paragraph {
     color: #fff;
+    padding: 10px 0 20px 0;
 }
 
+h2.prefooter-title {
+    color: #fff;
+}
 
+/* _________inizio footer___________ */
 
+footer {
+    height: 300px;
+    background-color: #001A4F;
+}
 
+.footer-container {
+    width: 80%;
+    margin: auto;
+}
+
+.footer-container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.left-footer-box {
+    width: 15%;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    float: left;
+}
+
+.right-footer-box {
+    width: 85%;
+    float: left;
+}
+
+.footer-logo a {
+    display: inline-block;
+}
+
+.footer-logo a img {
+    height: 40px;
+}
+
+span.footer-copyright {
+    display: inline-block;
+    font-weight: bold;
+    margin: 30px 0 10px 0;
+}
+
+span.footer-mail {
+    display: inline-block;
+    margin: 20px 0;
+}
+
+span.footer-mail:hover {
+    color: #419656;
+    cursor: pointer;
+}
+
+.footer-icons a {
+    display: inline-block;
+}
+
+i.fa-facebook-f, i.fa-linkedin-in {
+    color: #64DE82;
+    font-size: 20px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+i.fa-linkedin-in {
+    font-size: 22px;
+}
+
+i.fa-facebook-f:hover, i.fa-linkedin-in:hover {
+    color: #419656;
+}
 
 
 
