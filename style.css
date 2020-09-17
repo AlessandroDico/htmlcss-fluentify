@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* ___regole generali comuni___ */
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -55,6 +56,8 @@ h3 {
     display: table;
     clear: both;
 }
+/* ___fine regole generali comuni___ */
+
 
 /* _________inizio header__________ */
 
@@ -79,7 +82,7 @@ header::before {
 nav {
     position: relative;
     z-index: 1;
-    height: 100px;
+    height: 100px; /*lasciare questa altezza fissa*/
 }
 
 .logo {
@@ -105,6 +108,7 @@ a.a-menu {
     display: inline-block;
     color: #fff;
     padding: 10px 12px;
+    position: relative;
 }
 
 .nav-buttons {
@@ -145,6 +149,19 @@ a.a-menu {
     color: #fff;
 }
 
+/*___pallino current page______*/
+
+.current-page::before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    background-color: #64DE82;
+    position: absolute;
+    left: 0;
+    border-radius: 50%;
+    z-index: -1;
+    top: 8px;
+}
 
 /* ___________inizio sezione jumbotron______ */
 .jumbotron {
@@ -467,26 +484,3 @@ small.small-terms-conditions {
 small.small-terms-conditions:hover {
     color: #419656;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* togliere questa scritta */
