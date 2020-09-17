@@ -97,6 +97,10 @@ nav {
     float: left;
 }
 
+.logo a img:hover{
+    filter: brightness(0.8);
+}
+
 .menu-bar {
     padding: 29px 0;
     float: left;
@@ -153,11 +157,15 @@ a.a-menu:hover {
     margin-right: 5px;
 }
 
-.select-lenguage {
+a.select-lenguage {
     text-transform: uppercase;
     color: #fff;
+    transition: color 0.4s ease-in-out;
 }
 
+a.select-lenguage:hover {
+    color: #ddd;
+}
 /*___pallino current page______*/
 
 .current-page::before {
@@ -319,6 +327,7 @@ a#a-link-ios {
     color: rgb(100, 222, 130);
     font-weight: bold;
     letter-spacing: 1.2px;
+    transition: color 0.2s ease-in-out;
 }
 
 a#a-link-ios:hover {
@@ -415,6 +424,10 @@ footer {
 
 .footer-logo a img {
     height: 40px;
+}
+
+.footer-logo a img:hover{
+    filter: brightness(0.8);
 }
 
 span.footer-copyright {
