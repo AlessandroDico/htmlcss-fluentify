@@ -20,6 +20,15 @@ li {
 h1, h2, h3, h4, h5, h6 {
     font-weight: 100;
 }
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 27px;
+}
+
 .button-primary {
     display: inline-block;
     padding: 10px 20px;
@@ -187,7 +196,6 @@ main p {
 }
 
 h2.description-title {
-    font-size: 40px;
     letter-spacing: 1.3px;
     line-height: 1.4;
     color: rgb(114, 114, 114);
@@ -196,7 +204,6 @@ h2.description-title {
 
 h3.description-subtitle {
     color: #00004d;
-    font-size: 27px;
     margin: 20px 0;
     letter-spacing: 1.3px;
     line-height: 1.4;
@@ -217,9 +224,8 @@ p.description-paragraph {
 
 /* inizio sezione big icon row del marn */
 
-h4.big-icon-row-title {
+h2.big-icon-row-title {
     text-align: center;
-    font-size: 40px;
     color: rgb(114, 114, 114);
     margin-bottom: 40px;
 }
@@ -261,8 +267,7 @@ span.span-row-icon {
     padding-right: 95px;
 }
 
-h3.row-mobile-title {
-    font-size: 40px;
+h2.row-mobile-title {
     color: #fff;
     padding: 70px 0 20px 0;
 }
@@ -306,12 +311,27 @@ a#a-link-ios:hover {
 
 h3.safety-row-title {
     color: #00004d;
-    font-size: 27px;
     margin-bottom: 20px;
 }
 
 p.safety-row-paragraph {
     line-height: 1.4;
+}
+
+/* _____inizio sezione prefooter row___ */
+
+.prefooter-row {
+    background-color: #294681;
+    padding: 80px 0;
+}
+
+.prefooter-left, .prefooter-right {
+    display: inline-block;
+    width: 40%;
+}
+
+p.prefooter-paragraph {
+    color: #fff;
 }
 
 
