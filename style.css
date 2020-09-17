@@ -17,6 +17,9 @@ li {
     list-style-type: none;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 100;
+}
 .button-primary {
     display: inline-block;
     padding: 10px 20px;
@@ -133,6 +136,7 @@ a.a-menu {
     color: #fff;
 }
 
+
 /* ___________inizio sezione jumbotron______ */
 .jumbotron {
     position: relative;
@@ -148,13 +152,11 @@ a.a-menu {
 h5.section-small-title {
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-weight: 100;
 }
 
 h1.main-title {
     font-size: 60px;
     padding: 30px 0;
-    font-weight: 200;
 }
 
 p.paragraph-jumbo {
@@ -167,7 +169,6 @@ p.paragraph-jumbo {
 
 main p {
     color: rgb(114, 114, 114);
-    font-weight: 100;
 }
 
 .image-e-program-description {
@@ -191,7 +192,6 @@ h2.description-title {
     line-height: 1.4;
     color: rgb(114, 114, 114);
     margin-bottom: 40px;
-    font-weight: 100;
 }
 
 h3.description-subtitle {
@@ -200,7 +200,6 @@ h3.description-subtitle {
     margin: 20px 0;
     letter-spacing: 1.3px;
     line-height: 1.4;
-    font-weight: 100;
 }
 
 p.description-paragraph {
@@ -218,11 +217,10 @@ p.description-paragraph {
 
 /* inizio sezione big icon row del marn */
 
-.big-icon-row-title {
+h4.big-icon-row-title {
     text-align: center;
     font-size: 40px;
     color: rgb(114, 114, 114);
-    font-weight: 100;
     margin-bottom: 40px;
 }
 
@@ -266,13 +264,11 @@ span.span-row-icon {
 h3.row-mobile-title {
     font-size: 40px;
     color: #fff;
-    font-weight: 100;
     padding: 70px 0 20px 0;
 }
 
 p.row-mobile-paragraph {
     color: #fff;
-    font-weight: 100;
     padding-bottom: 30px;
     letter-spacing: 1.3px;
 }
@@ -312,7 +308,6 @@ h3.safety-row-title {
     color: #00004d;
     font-size: 27px;
     margin-bottom: 20px;
-    font-weight: 100;
 }
 
 p.safety-row-paragraph {
