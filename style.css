@@ -39,6 +39,8 @@ h3 {
     background-color: #64DE82;
     color: #337142;
     border: 1px solid #64DE82;
+    transition: color 0.4s ease-in-out;
+    transition: background 0.4s ease-in-out;
 }
 
 .button-primary:hover {
@@ -109,6 +111,7 @@ a.a-menu {
     color: #fff;
     padding: 10px 12px;
     position: relative;
+    transition: color 0.4s ease-in-out;
 }
 
 a.a-menu:hover {
@@ -132,6 +135,8 @@ a.a-menu:hover {
     font-size: 14px;
     color: #fff;
     border: 1px solid #fff;
+    transition: color 0.4s ease-in-out;
+    transition: background 0.4s ease-in-out;
 }
 
 #button-login:hover {
