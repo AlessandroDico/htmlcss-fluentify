@@ -83,7 +83,8 @@ header::before {
 /* _______inizio navbar con logo menu e bottoni____ */
 nav {
     position: relative;
-    z-index: 1;
+    /*bisogna dare z-index maggiore del jumbo altrimenti non si riescono a cliccare i dropdown menu*/
+    z-index: 2;
     height: 100px; /*lasciare questa altezza fissa*/
 }
 
@@ -108,6 +109,12 @@ nav {
 
 .menu-bar ul li {
     float: left;
+}
+
+ul.ul-menu-bar {
+    content: '';
+    display: table;
+    clear: both;
 }
 
 a.a-menu {
@@ -178,6 +185,47 @@ a.select-lenguage:hover {
     border-radius: 50%;
     z-index: -1;
     top: 8px;
+}
+
+/* ___inizio dropdoown menu navbar______ */
+.li-dropdown-father{
+    position: relative;
+}
+
+.ul-dropdown {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 35px;
+    white-space: nowrap;
+    background-color: #001A4F;
+    border-radius: 10px;
+}
+
+li.li-dropdown-father:hover .ul-dropdown {
+    display: block;
+}
+
+a.a-dropdown {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 10px 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+a.a-dropdown:hover {
+    color: #bbb;
+}
+
+li.li-dropdown {
+    border-bottom: 1px solid #fff;
+    width: 100%;
+}
+
+ul.ul-dropdown li:last-child {
+    border: none;
 }
 
 /* ___________inizio sezione jumbotron______ */
